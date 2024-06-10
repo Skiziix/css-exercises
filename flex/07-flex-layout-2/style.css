@@ -19,6 +19,9 @@ body {
 
 .card {
   flex: 1 1 28%;
+  padding: 10px;
+  padding-bottom: 50px;
+  width: min-content;
 }
 
 .header {
