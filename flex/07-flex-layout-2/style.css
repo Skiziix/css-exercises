@@ -46,10 +46,11 @@ a {
   justify-content: left;
   align-items: center;
   padding-left: 10px;
+  font-weight: bolder;
 }
 
 .header {
-  height: 72px;
+  height: 62px;
   background: darkmagenta;
   color: white;
 }
