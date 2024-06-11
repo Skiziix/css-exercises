@@ -32,6 +32,11 @@ li, a {
   margin-bottom: 10px;
 }
 
+.footer {
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
