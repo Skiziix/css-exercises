@@ -4,14 +4,18 @@ body {
   min-height: 100vh;
 }
 
-.header, .footer, .sidebar, .content, .cards {
+.header,
+.footer,
+.sidebar,
+.content,
+.cards {
   display: flex;
 }
 
 .cards {
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   gap: 10px;
   padding: 35px;
   padding-right: 100px;
@@ -24,7 +28,8 @@ body {
   width: min-content;
 }
 
-li, a {
+li,
+a {
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -35,6 +40,12 @@ li, a {
 .footer {
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  justify-content: left;
+  align-items: center;
+  padding-left: 10px;
 }
 
 .header {
@@ -57,6 +68,6 @@ li, a {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
 }
